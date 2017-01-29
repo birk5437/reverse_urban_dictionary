@@ -38,6 +38,8 @@ gem 'spring',        group: :development
 
 gem 'bundler'
 
+gem 'urban_dictionary'
+
 group :development do
   gem 'better_errors'
 end
@@ -55,7 +57,7 @@ gem 'bootstrap-sass-extras'
 gem 'acts_as_votable', github: 'ryanto/acts_as_votable'
 gem 'tzinfo-data'
 gem 'validates_formatting_of'
-gem 'paperclip', "~> 5.1.0"
+# gem 'paperclip', "~> 5.1.0"
 gem 'aws-sdk', '~> 2.3.0'
 
 gem 'snoo'

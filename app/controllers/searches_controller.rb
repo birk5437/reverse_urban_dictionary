@@ -24,7 +24,7 @@ class SearchesController < ApplicationController
   # POST /searchs.json
   def create
     @search = Search.new(search_params)
-    raise @search.inspect
+    @search.get_tags
 
     respond_to do |format|
       if @search.save
